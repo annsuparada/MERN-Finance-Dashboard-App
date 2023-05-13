@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "path": {
+      "@/*": ["./src/*"]
+    },
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ESNext",
@@ -13,6 +16,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
+    "types": ["vite/client"],
 
     /* Linting */
     "strict": true,
